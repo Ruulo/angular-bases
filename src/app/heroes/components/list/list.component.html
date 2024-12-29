@@ -1,0 +1,24 @@
+<h3>Listado de Heroes</h3>
+
+<div *ngIf="deletedHero; else nothingWasDeleted">
+  <h3>Heroe borrado <small class="text-danger"> {{deletedHero}} </small></h3>
+</div>
+
+<ng-template #nothingWasDeleted><!--esta esperando a ser usado, por mientras no aparece
+  en la interface y #nothingWasDeleted se conoce como referencia local-->
+  <h3>No ha borrado naris.</h3><!--este template puedo ponerlo en cualquier parte del codigo
+  siempre se mostrara en el mismo lugar-->
+</ng-template>
+
+
+<button class="btn btn-outline-danger" (click)="removeLastHero()" *ngIf="heroNames.length > 0">
+  Borrar ultimo heroe
+</button>
+
+
+<ul class="mt-2 list-group">
+  <li *ngFor="let name of heroNames"
+      class="list-group-item">{{ name }}</li>
+</ul>
+
+

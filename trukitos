@@ -1,0 +1,21 @@
+---------------------------------
+% Para correr la aplicacion de angular
+% ng serve -o
+----------------------------------------
+% Para comentar codigo:
+% ctr(control) + k + cserv
+% Para descomentar codigo:
+% ctr(control) + k + u
+---------------------------------------
+% como poner los backticks
+% Alt Gr + (}x2)
+% osea mantenemos presionado altgr y luego presionamos la tecla de llave (}) dos veces
+-----------------------------------------------------------------
+% npm run dev
+% para correr el ambiente local (correr la aplicacion)
+-----------------------------------------------------------------
+% Si pongo el cursor ensima de una interface (ejemplo: interface Address {}) y presiono ctrl nos mostrará sus atributos, y
+% si presiono click enseguida me mandara a donde esta esa interface.
+---------------------------------------------------------------------
+% Si pongo el cursor en un atributo que esta repetido, y presiono f2, me dara la opcion de modificarlos, solo modificano
+% uno de ellos.
